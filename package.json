@@ -1,0 +1,20 @@
+{
+  "name": "yatri-automation-task",
+  "version": "1.0.0",
+  "description": "Automated test for customer module flow",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "keywords": [
+    "automation",
+    "playwright",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "dotenv": "^17.2.3"
+  }
+}
