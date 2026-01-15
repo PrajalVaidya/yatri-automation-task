@@ -70,3 +70,4 @@ The test logs detailed information for each step:
 - **Selectors not working?** Update selectors in `tests/customer-flow.spec.js`
 - **Timeout errors?** Increase timeout in `playwright.config.js`
 - **Login fails?** Verify credentials and base URL
+- **Hover issues?** adjust Viewport {width, height} in `playwright.config.js`
